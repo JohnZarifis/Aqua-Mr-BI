@@ -1,0 +1,2286 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="72867706-bbe9-4f2c-a560-eeafb12fbd55" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Nireus Aqua Mr DM</ID>
+  <Name>Nireus Aqua Mr DM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5622" scrolltop="-9651" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18838" y="15584" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimTime" left="1556" top="5706" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="5794" height="3175" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000a2160000670c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTime" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DailyFact" left="13963" top="-819" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4286" height="9604" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000be10000084250000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DailyFact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7050" top="-717" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="7213" height="7310" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DailyFact-DimTime]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="23" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7350" y="6193" />
+              <point x="8173" y="6193" />
+              <point x="8173" y="-417" />
+              <point x="13963" y="-417" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimCageLot" left="1800" top="627" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="5952" height="2805" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a000040170000f50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCageLot" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7452" top="-167" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="6811" height="1496" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DailyFact-DimCageLot]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="23" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7752" y="929" />
+              <point x="8595" y="929" />
+              <point x="8595" y="133" />
+              <point x="13963" y="133" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="FoodDim" left="2667" top="-4651" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="6032" height="2540" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a000090170000ec090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FoodDim" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="PlanFact" left="-3598" top="-2434" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3307" height="11324" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000eb0c00003c2c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PlanFact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-591" top="2928" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="2447" height="3665" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PlanFact-DimTime]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="22" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1556" y="6193" />
+              <point x="275" y="6193" />
+              <point x="275" y="3228" />
+              <point x="-291" y="3228" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-591" top="-2680" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3558" height="2908" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PlanFact-FoodDim]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="7" sourceattachpoint="30" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2667" y="-2281" />
+              <point x="302" y="-2281" />
+              <point x="302" y="-72" />
+              <point x="-291" y="-72" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-591" top="178" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="2691" height="1151" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PlanFact-DimCageLot]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="22" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1800" y="929" />
+              <point x="305" y="929" />
+              <point x="305" y="478" />
+              <point x="-291" y="478" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="Scenario" left="3608" top="-8437" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Scenario" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5622</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9651</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3598</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-8437</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="4adb4585-b37d-4b71-be9a-8ab8b2feb640">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <DimensionID>Dim Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ff1624b1-4bea-4421-9b30-e44f5435ffc8">
+          <AttributeID>PK Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7fc0673-a0ab-4f83-9c11-78497c90c3a8">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86b46300-28fd-4a46-8bef-4aa536692d63">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c624ceb0-ccdb-47ae-8ff4-38d69094ac7b">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0bfd781c-96db-4572-a2e3-f2457d863d08">
+          <AttributeID>Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8719bcac-5283-49e4-b86b-669559c77101">
+          <AttributeID>Month Of Year 1</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="07cb6139-55b6-4ab2-aa2b-9a1f9589d664">
+      <ID>Dim Cage Lot</ID>
+      <Name>Dim Cage Lot</Name>
+      <DimensionID>Dim Cage Lot</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d290df14-7470-4f3a-b0c9-71ff416fc8b2">
+          <AttributeID>CAGELOTID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8511531b-6d88-40fe-8428-b455b5d55c82">
+          <AttributeID>PLSTARTID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b24ae683-ffff-440a-a690-40119a4530c0">
+          <AttributeID>LOTGRADING</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4dce3e87-8c57-48fb-b588-8b94839612b9">
+          <AttributeID>ANCHOR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="320736ec-e956-489d-a475-0d8eedb6cd4c">
+          <AttributeID>Cage ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89809c4f-967b-4778-9d52-fea1fc0a5614">
+          <AttributeID>CAGENAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="952941b9-e988-4f45-a8e0-753adf29704b">
+          <AttributeID>LOTNAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="396fdb14-618f-402b-b8b9-ed622bb626fb">
+          <AttributeID>SPECIES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a0d716f-b25a-4d7f-9211-0d7f7a4c614f">
+          <AttributeID>ORIGINMONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="355c119a-4cd6-4391-82f6-13718adcec25">
+          <AttributeID>ORIGINYEAR</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75e237cb-0c03-4c86-87e3-94db1f30f757">
+          <AttributeID>HATCHERY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8826eb2c-a218-467a-baef-3abdab23d8be">
+          <AttributeID>SITEGROUP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="efaa2ad2-77f7-442c-b6eb-40d686f3b755">
+          <AttributeID>SITENAME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1be609f8-e507-4a7b-a7e4-b39c0f9a85b1">
+          <AttributeID>GRADING</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b7e8983-2784-444d-afb6-a245c89a07fb">
+          <AttributeID>ISVACCINATED</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2c875964-4def-4615-a5fe-23928c6d3af4">
+          <AttributeID>POPULATIONDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7e3744a-d553-4056-92c2-345931132f36">
+          <AttributeID>LOTINITIAL DATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3714e0c-13d8-4b76-babf-c3ae12a392b5">
+          <AttributeID>INITIALCOUNTOFFISHES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59b0b264-52fc-46cb-b799-23226e504f11">
+          <AttributeID>INITIALCAGELOTMAB</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d89b148a-d21e-44ae-a0c4-a3dc72f0441f">
+          <AttributeID>CAGELOTGRADINGLASTDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b0e6bb27-42d2-45a7-a397-dff42ecdf8cb">
+          <AttributeID>LASTDATEFORAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1d361392-05a2-402f-b578-0a007c7a5a75">
+          <AttributeID>CAGELOTENDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fdb83d4c-6242-4347-ab7e-9eb834f1a581">
+          <AttributeID>CC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="387423b7-5886-40b0-827f-9abb1cfe83a6">
+          <AttributeID>Agreed Budget For Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e7fecf88-12bc-4184-a799-887e54d2cdd9">
+          <AttributeID>Initial Biomass</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c34f6dde-f9e5-474b-82fd-9bfd9addf9c3">
+          <AttributeID>LOTMATCH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2bc3e91b-fd52-4a1a-aa50-ec242b550e92">
+          <AttributeID>SITEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ca8df2d-4767-4e7d-95e2-9a2beb95f1de">
+          <AttributeID>SITEGROUPID</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="8c052e02-ec2b-44f9-9fee-09a581067887">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="cc130701-81e7-4765-9821-9dfd9fff81b3">
+      <ID>Food Dim</ID>
+      <Name>Food Dim</Name>
+      <DimensionID>Food Dim</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ce38cbaa-f4ed-4480-aa97-416379389fcb">
+          <AttributeID>FOODID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cedea2d1-ecf9-4310-b5d2-5b1a6389d500">
+          <AttributeID>ISACTIVE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="503fab5c-0a74-491d-b1da-85b2fc658f05">
+          <AttributeID>ISMEDICINE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e81f67c2-0d86-4963-ac42-a0949974edfb">
+          <AttributeID>ISVACCINE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53da7ac1-5285-449b-9683-83f596934168">
+          <AttributeID>CONTAINSMEDICINE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f76eeea-d94f-42e2-b816-09c1247ebbfd">
+          <AttributeID>FOODCATEGORY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2abbadac-e106-469f-a031-a87b096e3f80">
+          <AttributeID>SUPPLIER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5460718-a6bd-443b-a116-7d4c4c45f4fd">
+          <AttributeID>Feed Size</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5d6c3577-b0af-47ef-b5b5-cf762abd9f1b">
+      <ID>Dim FeedingStatus</ID>
+      <Name>Dim FeedingStatus</Name>
+      <DimensionID>Dim FeedingStatus</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ae38a2eb-0b6b-4cc4-b638-91fcbc26724e">
+          <AttributeID>FASTINGCAUSE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad138806-2bc3-493e-aedc-d6b9cc9fb13e">
+          <AttributeID>ISINFAST</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="306cbb20-503a-4725-b49a-dc712bc4d7eb">
+      <ID>Dim Scenario</ID>
+      <Name>Dim Scenario</Name>
+      <DimensionID>Dim Scenario</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bfac2085-214e-4a5b-bcc3-01d68d08761e">
+          <AttributeID>ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="b3a08418-590b-4648-a471-c6f7c5674b99">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="241ba951-de67-4094-9642-27cedf27c2a7">
+      <ID>CubePermission 1</ID>
+      <Name>CubePermission 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 2</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="034f42d4-d967-4066-bc2f-36b922bd1e36">
+      <ID>CubePermission 2</ID>
+      <Name>CubePermission 2</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 3</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="d3a434c6-8af5-4985-ac67-f420646e084f">
+      <ID>CubePermission 3</ID>
+      <Name>CubePermission 3</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 5</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="432799e4-7da3-4e14-803d-b33f378c9745">
+      <ID>CubePermission 4</ID>
+      <Name>CubePermission 4</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 6</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="35a2a832-fbe8-49bf-923e-68d8e51a840f">
+      <ID>CubePermission 5</ID>
+      <Name>CubePermission 5</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 7</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+    <CubePermission dwd:design-time-name="0fd1cd51-dbbe-46b0-a42b-d2c5d55e10c6">
+      <ID>CubePermission 6</ID>
+      <Name>CubePermission 6</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 4</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="dabf52b1-bdea-4a8e-8a8f-5564c7072356">
+      <ID>Perspective</ID>
+      <Name>Apologistika</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="18c6a914-dd60-48ba-95ab-bf985557fd99">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f7e3095d-e518-425b-950c-83d89bafe48c">
+              <AttributeID>PK Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="71d30c04-0a3f-4d86-9537-dddbf2f3c8b9">
+              <AttributeID>Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="5ff697e4-c46a-4b39-8a30-8377464d54d6">
+              <AttributeID>Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="069b66e5-8315-405f-81da-2d56a9114f72">
+              <AttributeID>Day Of Week</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0cbf6e3e-9ce9-4711-80ab-0c1da879adaa">
+              <AttributeID>Month Of Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="137069f1-939c-43d1-8d61-ec6b034cfc23">
+              <AttributeID>Month Of Year 1</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="85e0dcd4-a585-42f9-8292-a3bf03b40749">
+          <CubeDimensionID>Dim Cage Lot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8dbc1adb-2229-49c6-b8a1-1d68df52dee3">
+              <AttributeID>LOTGRADING</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="07239401-486e-4434-bd10-ec4a618c9f66">
+              <AttributeID>ANCHOR</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1f4cb421-36e7-4eba-9c95-92095fb95cf3">
+              <AttributeID>CAGENAME</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1203eae1-c34b-4774-b560-2f051b87f03c">
+              <AttributeID>LOTNAME</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3403c7ea-f3cf-4812-8b0b-67f30168aecd">
+              <AttributeID>SPECIES</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f52cf83b-60a6-43b0-a87b-3bd5e0c98a21">
+              <AttributeID>ORIGINMONTH</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="598b15fe-5e23-46f6-bc41-02837b0a9766">
+              <AttributeID>ORIGINYEAR</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="0d843361-fc66-481e-acb1-ecc952c2d763">
+              <AttributeID>HATCHERY</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="3f2df15e-fc20-4bfd-832f-8126e1ab01bd">
+              <AttributeID>SITENAME</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="addd185e-0593-4251-a6c6-6561c2d36c90">
+              <AttributeID>GRADING</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d66ff010-a412-47dd-b03f-00eed50f3980">
+              <AttributeID>ISVACCINATED</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c4d9ef67-61fc-4146-be3e-2fc02b92b451">
+              <AttributeID>POPULATIONDATE</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1512b30e-6983-4f66-83e7-d52251d03a84">
+              <AttributeID>LOTINITIAL DATE</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1a30f315-f04a-4c3f-a15b-3e2dbc3d40b9">
+              <AttributeID>CAGELOTGRADINGLASTDATE</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="562a8d6b-f674-489a-a4d5-4c55f4ccb693">
+              <AttributeID>LASTDATEFORAGE</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="85988251-06c2-4aeb-8d4e-db3e247be4af">
+              <AttributeID>CAGELOTENDDATE</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="74d61fae-651d-4002-b545-0991e48aa724">
+              <AttributeID>CC</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="be5f9253-4410-4901-9390-c98064a3d78a">
+              <AttributeID>Agreed Budget For Year</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="9253c9ed-11b3-4e58-ae23-cad8af0e244f">
+              <AttributeID>Initial Biomass</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dab38afd-b392-4e9d-acb1-e70314503c55">
+              <AttributeID>LOTMATCH</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="ba9090b8-e5c0-4a9d-9cae-fa1d142add3b">
+              <AttributeID>SITEID</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="31d12e6f-d2f3-4d9d-84b8-3f43e512864e">
+              <AttributeID>SITEGROUPID</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="26624d99-575d-4c8c-b697-61be442a43bf">
+              <HierarchyID>Hierarchy</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="37b59580-cc41-4571-ba4f-ec7e24d2c6d9">
+          <MeasureGroupID>Daily Fact</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="6fe85be8-dc40-499a-859f-e074ab642a0b">
+              <MeasureID>Day Mortal No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="51ac86b4-37b4-4972-8d39-a4826674a158">
+              <MeasureID>Day Mortal Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="fdc9f616-139d-4f02-b778-8b2f7a41debf">
+              <MeasureID>Day Loss No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="0eb696d0-5883-487c-8905-e2e87f7645c1">
+              <MeasureID>Day Loss Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="18729bb3-215a-4ab4-820f-f0c72110337b">
+              <MeasureID>Day Harvest No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="c21af9c4-f9dd-49eb-818e-d3ad5c9e3ea6">
+              <MeasureID>Day Harvest Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="168604d9-5196-4a4f-bce3-e75d0f712faa">
+              <MeasureID>Day Corr No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="4fe3e19c-c367-4938-bf5c-37e58c134ae7">
+              <MeasureID>Day Corr Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="f4508281-b034-4668-82bb-86730382ac1e">
+              <MeasureID>Day Food Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="cee876cc-6d20-4a74-b30f-eb8abb46dd87">
+              <MeasureID>Day Temp</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="5898cfbf-c0f4-41fc-9f85-c3791bf13909">
+              <MeasureID>Day Insert No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b0cdee79-8374-44a7-ab2d-66b205401d56">
+              <MeasureID>Day Insert Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="db1af03e-8471-4707-b98f-279be542ddbf">
+              <MeasureID>Day Suggested Food Qty</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="f5fa626b-dcb4-431c-92aa-7ba5672f94c7">
+              <MeasureID>USELESSNO</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="6daa4e54-8670-44c6-8fc9-ae96253a0683">
+              <MeasureID>USELESSKG</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="fa475ef6-1e2b-4cd7-ad34-0d630ffda870">
+              <MeasureID>Daily Fact Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="52f6c1fe-c87f-4dd0-97fe-2e65c8e1e387">
+              <MeasureID>Previous Day Fish No 1</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="d8ba2e61-c777-481a-9e9d-c29f11033633">
+              <MeasureID>Previous Day Fish No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="5aca427e-2236-4be5-9985-e9f0eb643848">
+              <MeasureID>Fish No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="bd300469-52a8-419c-a78b-33be01670faa">
+              <MeasureID>Biomass</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="8396533b-0ec2-42a1-8d3e-a22e4dcfd0c4">
+              <MeasureID>Previous Day Biomass</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="276dc5aa-5501-4909-958f-154a985547ed">
+          <MeasureGroupID>Plan Fact</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="ba867592-b923-4287-b91c-fd59f8326fd2">
+              <MeasureID>Fish No - Plan Fact</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="4487d688-59de-4c62-940c-d3dfcc0c2609">
+              <MeasureID>Food Qty</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="065bd8e0-d2b7-4557-ad38-8e9eb792cd15">
+              <MeasureID>Mortality No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="73c27799-f4fa-478b-80a0-4adf654bbb40">
+              <MeasureID>Mortality Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3f9820c9-3295-46ff-9f00-fcf977c4795b">
+              <MeasureID>Day Harvest No - Plan Fact</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="c308178a-a6a8-42c3-836b-3b829bb8ccbe">
+              <MeasureID>Day Harvest Kg - Plan Fact</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="856b3044-3f01-45a1-8527-30aaa43d5570">
+              <MeasureID>Corr No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b1009bc3-13c0-4af0-ac60-2c7f660c873b">
+              <MeasureID>Corr Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b65f2e14-7f08-4a1b-93e4-3de8d5997532">
+              <MeasureID>Insert No</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b9b3bdbf-4159-4612-a938-7a630b9f8493">
+              <MeasureID>Insert Biomass Kg</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a970fca6-0a80-4630-82ee-6d3be2820f2d">
+              <MeasureID>Plan Fact Count</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="3fd5137d-635a-4ff9-be90-282ed27bd668">
+              <MeasureID>PREVIOUSDAYFISHNO</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="e1a405bc-22a1-4b4b-8f66-239dfbae2504">
+              <MeasureID>PREVIOUSDAYMAB</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="0a514c61-f421-409d-b7e4-fdedfd438f8e">
+              <MeasureID>Biomass 1</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="2b814453-4c83-4a06-9935-16ff660cf061">
+              <MeasureID>PREVIOUSDAYBIOMASS</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="956dc0a5-44a8-432c-a257-7ec72fd438cc">
+          <Name>[Measures].[Μ.Β. ΤΕΛΟΥΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="70d0ecd3-7b8c-4ed1-847e-f109122f5103">
+          <Name>[Measures].[Μ.Β. ΑΡΧΗΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="97d0d785-8b5c-4fd2-9359-6aa920c72d9d">
+          <Name>[Measures].[Μ.Β. ΠΩΛΗΣΕΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a2778e99-719a-43d0-86dc-75f15e7f646e">
+          <Name>[Measures].[ΑΝΑΠΤΥΞΗ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1f883c0b-3508-4b8b-90e4-4808ca7b24f2">
+          <Name>[Measures].[FCR]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="80742e5e-1691-4a98-b163-014a577dd656">
+          <Name>[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ (%)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="014a11dc-710d-488e-a4ce-fd8d990d8435">
+          <Name>[Measures].[Μ.Β. ΘΝΗΣ.]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="30ca114e-856f-46bb-9990-5012b0ff70e3">
+          <Name>[Measures].[Μ.Β. ΤΕΛΟΥΣ BUDGET]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a3f587a6-560e-4e18-8911-5425353aa686">
+          <Name>[Measures].[Μ.Β. ΑΡΧΗΣ BUDGET]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a2046c9b-d03e-4f97-99e1-9380e4d587c2">
+          <Name>[Measures].[Μ.Β. ΠΩΛΗΣΕΩΝ BUDGET]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="2a1ba3b5-7003-422c-8ee6-914dbaf746d7">
+          <Name>[Measures].[ΑΝΑΠΤΥΞΗ BUDGET]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="5c41a25e-bd14-46cf-8004-c28ae59f1d59">
+          <Name>[Measures].[FCR BUDGET]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="b16f07e2-1f9d-4878-8631-f1155717e7b3">
+          <Name>[Measures].[ΔΙΟΡΘΩΣΕΙΣ %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="23c4ac82-0bc7-4f7e-bf83-a6bbec5f3885">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ (Kg)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="c0a923c2-3d81-48fe-9b8e-c420fdeaad25">
+          <Name>[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="8886eb2f-65da-4beb-944b-9fcb3cdec32e">
+          <Name>[Measures].[ΑΝΑΠΤΥΞΗ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="fd27f4dc-173a-4d85-8159-22e31bb8e689">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1ef0ab26-496f-4696-9308-e3bd50ab0520">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="c1941a7e-ea58-4c2e-a463-f8f1e6b06977">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="94662370-7552-40dd-81ab-fa04854daa25">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="9915c953-b108-4c32-ac31-65b38fcbae7a">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1f395849-e54a-4df4-ab12-87bbf973f150">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="a100a14b-8dcb-43db-949d-4346e24a698e">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="e590ca58-9ca1-4761-a12c-a691f4d6900c">
+          <Name>[Measures].[ΤΡΟΦΗ (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="3d571d03-5122-4da7-b74d-dde83522ca6e">
+          <Name>[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="4bb48299-1ec0-4461-abfd-b5ec0b9eda76">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="4b90ca3c-c245-48dc-a03a-205ca460853e">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f04fb169-3f4f-480c-80be-45ea2b624282">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="98066c63-61f0-404a-91fd-19d99959b92f">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="7c843a84-5b43-4c35-b2ac-30e35590f7ff">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="3351bcc9-ed12-4a2f-9a4b-8f28ab442426">
+          <Name>[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f80e4555-9a86-483d-b1a8-356e868e5fc1">
+          <Name>[Measures].[ΤΡΟΦΗ BUDGET (Tn)]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="7945de35-c933-4155-a8af-6ec5da3d3d6c">
+          <Name>[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="33bc5896-de91-494f-95cc-8b19c08defca">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΑΡΧΗΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="231c2ac7-5068-4a7e-adb7-343d957c6255">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ FCR]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="6cbb5ee0-6dd9-47ac-ae13-0b06e627fa2e">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="25d56f64-e1cf-400c-9bf9-ba542b3f47da">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="cae05acb-2226-47ac-858d-74c89898c04e">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΑΡΙΘΜΟΣ ΤΕΛΟΥΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="02adb7c3-d82c-483a-bacf-69a707556aff">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΤΡΟΦΗ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="6fdc6b4a-bcba-4471-9f78-c2c86ccc0f5a">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1ab3df4f-af21-4d3a-837d-6bc74a122a94">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΕΙΣΑΓΩΓΕΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="e8f234a6-f722-4bf9-87fa-c9719310b0b6">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΑΡΙΘΜΟΣ ΑΡΧΗΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="5dd902f1-c989-4e80-9fa3-2a16f8705265">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f60dfff3-4ce2-455d-a7d5-3d941da48112">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="8feaf5f9-bf36-49d0-9553-e9290142a422">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="bdd76936-306a-4935-8477-c96706cb99d8">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΠΩΛΗΣΕΙΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="af97232f-386f-483f-9710-81aedd07a8cf">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="b53dd8e2-d799-403e-b193-c9612a523645">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="39055cd1-2984-4c80-a1dc-0a3ed7049ca3">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="c8317238-2127-469b-b3f2-36addcdda717">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="d2a1e791-a49e-4ca3-b45d-7dc80b2a912a">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ %]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="d19c027b-f5c1-446e-aa8a-8f405898af51">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΤΕΛΟΥΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="80a7d09d-7ee9-489f-9e76-5c77ddcb36ae">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΑΡΧΗΣ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f19ba847-c465-465b-a22e-f8451797a99f">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΠΩΛΗΣΕΩΝ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="771ec460-6d58-4239-bf17-c74663b99186">
+          <Name>[Measures].[ΜΕΣΗ ΘΕΡΜ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="865c8029-6023-46e1-ae25-f07cc9a7a6c2">
+          <Name>[Measures].[AVG ΘΕΡΜΟΚΡΑΣΙΑ Daily]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="c90b4e7e-aefe-4903-adbd-2ac3185a5a4f">
+          <Name>[Measures].[AVG ΘΕΡΜΟΚΡΑΣΙΑ Plan]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="28c83775-cb95-4920-802e-109b5424723a">
+          <Name>[Measures].[ΑΠΟΚΛΙΣΗ ΘΕΡΜΟΚΡΑΣΙΑ]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="326e36ed-9ea9-40ad-b100-d19797dfec58">
+          <Name>[Measures].[apoklisi gcr]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="d0674c3d-25e4-48fc-a311-e2843bb10eec">
+          <Name>[Measures].[apoklisi fcr]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
+    </Perspective>
+  </Perspectives>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="e3ad3466-b29d-4991-9d77-68ef64fd49d8">
+      <ID>Daily Fact</ID>
+      <Name>Daily Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="642e1371-c11e-463b-9e63-49ab513d427a">
+          <ID>MAB - Daily Fact</ID>
+          <Name>MAB - Daily Fact</Name>
+          <Source dwd:design-time-name="c29b8026-81d9-4ed5-837e-402284f22502">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="94a4190d-4464-4296-9204-07940f8d0740">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>MAB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="54213147-4fe3-4e07-a2f2-e136bd92e1d9">
+          <ID>Start Fish No</ID>
+          <Name>Start Fish No</Name>
+          <Source dwd:design-time-name="e25abd48-e31b-44e6-8ee1-97a1edc397c4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b99f92aa-4073-4064-8b71-ed420366ae25">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>StartFishNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3bd8cead-ea93-4539-8e47-1bf6010aebc0">
+          <ID>Start MAB</ID>
+          <Name>Start MAB</Name>
+          <Source dwd:design-time-name="83bb3abb-3968-45d7-89f8-f4ae330685ba">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d8b692b5-28f0-48d9-80ed-fdab87d5267f">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>StartMAB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a33ba1ed-790c-4143-9b1b-841d0e77d291">
+          <ID>Start Biomass</ID>
+          <Name>Start Biomass</Name>
+          <Source dwd:design-time-name="2c22d51d-68e8-4d4d-8a3d-055ce6dfba04">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8efb1577-bf7f-4aae-8e1f-7ae67a1fcc6b">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>StartBiomass</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ac8fbbd1-6a2e-47fd-bd9b-e8f6ae552c7c">
+          <ID>Acc Mortal No</ID>
+          <Name>Acc Mortal No</Name>
+          <Source dwd:design-time-name="8a96bcb2-e88c-4169-9e7c-8cd5df3780e3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cfa3cb14-b153-454c-afc6-333ac2d5367a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccMortalNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="acc705fd-8f97-4b0b-9a89-8a4427dbbb9f">
+          <ID>Acc Mortal Kg</ID>
+          <Name>Acc Mortal Kg</Name>
+          <Source dwd:design-time-name="34eed29b-4430-4a2f-b791-547675163c9c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1b8a0132-ecff-4da6-ad6a-935ec26c28c1">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccMortalKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d24a38ac-c07a-4f84-b63c-6b0b299770fd">
+          <ID>Acc Loss No</ID>
+          <Name>Acc Loss No</Name>
+          <Source dwd:design-time-name="600defab-3f47-4b29-82ee-ed2d5f073ad7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c13296e6-7467-460b-b23c-122319b68f8c">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccLossNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2b251d7b-70a7-4242-a7e1-8d59739356fa">
+          <ID>Acc Loss Kg</ID>
+          <Name>Acc Loss Kg</Name>
+          <Source dwd:design-time-name="c3a17c43-b913-4220-8a06-7eb5c13a1033">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6f184d60-50c9-48c2-9d28-e7aaac0404bd">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccLossKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="adf69be5-7b51-4ccf-8a4c-acfe38a87bac">
+          <ID>Acc Harvest No</ID>
+          <Name>Acc Harvest No</Name>
+          <Source dwd:design-time-name="5f64b5ab-f60c-44d1-be56-ed188e004bee">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d399c0d6-0c94-484b-bd03-bbc0d222cb5f">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccHarvestNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="de89f735-c180-43f9-ae7c-02a59154b6d5">
+          <ID>Acc Harvest Kg</ID>
+          <Name>Acc Harvest Kg</Name>
+          <Source dwd:design-time-name="e2046a37-3521-478a-a4ae-0f82322d61ac">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dcb14c15-28e3-4664-b5e2-453e7f02034d">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccHarvestKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6590b784-3798-4279-b709-8d347ee84f02">
+          <ID>Acc Corr No</ID>
+          <Name>Acc Corr No</Name>
+          <Source dwd:design-time-name="78653984-5c35-4ceb-b41d-db6ea1c22c9a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3f679313-b775-4e8a-a2f1-2b2f317f420a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccCorrNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4f683e03-2beb-44a7-afb9-3c2bad0e0c03">
+          <ID>Acc Corr Kg</ID>
+          <Name>Acc Corr Kg</Name>
+          <Source dwd:design-time-name="c8e85ec3-c567-4740-92a4-34c6b194091a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="652f845f-eb32-434b-8a1e-bdde4ccf8119">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccCorrKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="abc73f28-03a4-4a5d-8249-f65d81bb32a6">
+          <ID>Acc Food Kg</ID>
+          <Name>Acc Food Kg</Name>
+          <Source dwd:design-time-name="b517fb78-a09e-4ad6-95ca-a87bdb0acb0e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68ce3635-27e1-4a9c-9667-96940c11a2fa">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccFoodKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="94c79560-97e3-4862-be36-120f86072c3f">
+          <ID>Acc Food Cost</ID>
+          <Name>Acc Food Cost</Name>
+          <Source dwd:design-time-name="fe502a24-b617-42b8-8dd3-75ba4130a65b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cfaec1a8-1626-46ba-93f7-21b44cf10493">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccFoodCost</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9d7344b0-0a4c-494e-ab3b-b37aff284ee8">
+          <ID>Acc Med Kg</ID>
+          <Name>Acc Med Kg</Name>
+          <Source dwd:design-time-name="fe59543c-2450-4ace-ad58-27aaf1efd688">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cc7cdece-e5b7-4306-9311-406b3b395b50">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccMedKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="23ded4f7-5baf-4470-abd7-6d00a37a9fbf">
+          <ID>Day Mortal No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ</Name>
+          <Source dwd:design-time-name="40334fd9-780d-40ec-9d1f-5492b59a9b29">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7fa686f1-4339-4864-8367-f2049e71d64d">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayMortalNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="649ed679-ef1d-4ae5-8a1c-0a6d42aca815">
+          <ID>Day Mortal Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ</Name>
+          <Source dwd:design-time-name="6dd0178b-9dca-4d0b-aaa8-9a1c47a64df8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="00a66b51-b34d-4d77-935c-658311be049d">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayMortalKg</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="974dfe28-dca1-491e-9ce6-cb6c32173430">
+          <ID>Day Loss No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΠΩΛΕΙΩΝ</Name>
+          <Source dwd:design-time-name="a7a1f49f-997c-4d65-868a-e976c254f942">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="01b0179d-2ac2-46cc-8a50-6a2c53b2ea6f">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayLossNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="abbc3601-8570-4eb7-895b-59346d78883f">
+          <ID>Day Loss Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΠΩΛΕΙΩΝ</Name>
+          <Source dwd:design-time-name="555fa9ae-0096-4f14-9afc-699137fdb862">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc190fa4-53a7-467b-93df-78e335d3ee08">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayLossKg</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="6b54f867-358c-484b-b662-0971d54a80e5">
+          <ID>Day Harvest No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ</Name>
+          <Source dwd:design-time-name="212ed8fd-818b-4a3b-b406-2e4fdc505754">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1f1d6024-3613-4e64-a38c-80f0e4e16754">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayHarvestNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="0bb4e83f-ab30-444b-96aa-56e0228406b8">
+          <ID>Day Harvest Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ</Name>
+          <Source dwd:design-time-name="365d8d3e-d3cb-4c40-b5c5-1c33884e0f11">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b3d1ae7-6c43-4885-bcc0-1f45425dde4e">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayHarvestKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3c4bcaae-2636-4deb-b1e8-170f52c9ef19">
+          <ID>Day Corr No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ</Name>
+          <Source dwd:design-time-name="b327b280-1384-433f-8a26-c5c036b7566f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b690fd05-6df6-41d9-9c3c-d179e37b4aa9">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayCorrNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="0a5e1715-2cb1-48ad-8692-49c809ab7105">
+          <ID>Day Corr Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ</Name>
+          <Source dwd:design-time-name="20c909e2-a4ce-4777-bf2f-f9297eead485">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5159f732-f094-4a36-a8c7-45bcb3b2467e">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayCorrKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b776b9c-4ac1-469e-bb40-da1a1d822e58">
+          <ID>Day Food Kg</ID>
+          <Name>ΤΡΟΦΗ</Name>
+          <Source dwd:design-time-name="f00d9a5c-2ddc-406a-b5d8-6776bcd30dbc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6bc82b0c-8fe2-408c-a45c-9d8131954f5a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayFoodKg</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="d2ec6b3e-6820-41a3-be75-71a1eb9f6a67">
+          <ID>Day Food Per Fish</ID>
+          <Name>Day Food Per Fish</Name>
+          <Source dwd:design-time-name="0d9e6701-77d9-47cb-ac43-e63b55b2a6e7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b4973e61-a66a-49c7-afe5-f339f4ee3e54">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayFoodPerFish</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dc0cc416-f91a-4f81-abcb-c6304d535dff">
+          <ID>Day Med Kg</ID>
+          <Name>Day Med Kg</Name>
+          <Source dwd:design-time-name="8a8db1b3-cc59-4f43-b368-996fb240066d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e2b212f9-27e1-4cc9-bf0d-c59df5804092">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayMedKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e0b343fb-9c2b-445c-b65f-d51c231e2fc5">
+          <ID>Day Temp</ID>
+          <Name>ΘΕΡΜΟΚΡΑΣΙΑ</Name>
+          <Source dwd:design-time-name="1758ab75-11bd-46b6-9b93-78e3b8b599c3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b8f98067-9d73-4252-b037-8a7a837c69c9">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayTemp</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dbed6f07-a698-4024-bf2b-3929b1e9f36b">
+          <ID>Day Net Volume</ID>
+          <Name>Day Net Volume</Name>
+          <Source dwd:design-time-name="6e216ae9-9e03-4fc3-bb87-49475b00cb36">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1f0b4306-b43e-4a5c-be35-c6adc1b9a919">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayNetVolume</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e2412f53-4840-4300-87d5-2b10bb97b587">
+          <ID>Day Insert No</ID>
+          <Name>ΕΙΣΑΓΩΓΕΣ</Name>
+          <Source dwd:design-time-name="f6374e15-4ff2-44ca-bbe2-8e3bc58735b3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="578a2e1a-6acf-434d-94bf-840eb9d7c639">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayInsertNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="1afb4cb4-2a2f-4f84-b567-abad81e8a6ba">
+          <ID>Day Insert Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ</Name>
+          <Source dwd:design-time-name="d9aaa015-8f51-4bd0-b0de-8431a6494150">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cd70a215-7183-4410-8581-13168b845103">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayInsertKg</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="bc901ed0-2efc-4ac7-9a7b-9dda5d9c9227">
+          <ID>Day Given No</ID>
+          <Name>Day Given No</Name>
+          <Source dwd:design-time-name="12a084d9-6a25-4e3b-86ad-1b76d5033944">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24d85286-6e94-4383-ab72-ab17bfa35d2a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayGivenNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0e3ef54d-1097-4d58-89cd-2306ce49496e">
+          <ID>Day Given Kg</ID>
+          <Name>Day Given Kg</Name>
+          <Source dwd:design-time-name="da6b5b0e-38a9-44c6-9c4e-5d3e4da4d1f8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ed85bbe4-b312-4911-8be7-47ec32163cdb">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayGivenKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f13297a1-bfd0-4a6e-83a4-4dc2464ae438">
+          <ID>Day Taken No</ID>
+          <Name>Day Taken No</Name>
+          <Source dwd:design-time-name="462b8d01-5400-41af-ba1f-3518280a137b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6d694cc7-166d-4601-9d75-c91f2986543a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayTakenNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d73fd876-14a1-456a-9c79-5716cb8b358b">
+          <ID>Day Taken Kg</ID>
+          <Name>Day Taken Kg</Name>
+          <Source dwd:design-time-name="f1dbab36-9fdd-422d-99c3-dde7db20549e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc2232cc-d784-491c-9a75-9ab20fe3d6d8">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayTakenKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2bad7f0d-7896-43e6-b79b-18a296bace6f">
+          <ID>Mixed Percentage</ID>
+          <Name>Mixed Percentage</Name>
+          <Source dwd:design-time-name="3c1887cc-479d-4ce8-8313-48db407c950b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0579db97-4512-4fca-bb9e-b41668f5dc7b">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>MixedPercentage</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="54287d14-5a2d-46ca-ab0e-cfe34d7d7cb4">
+          <ID>Acc First3 Days Mortals No</ID>
+          <Name>Acc First3 Days Mortals No</Name>
+          <Source dwd:design-time-name="c1785318-1fe8-422e-acb7-fcaf0c6a6252">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4ce74923-922c-4396-b19b-4bf34e0802e5">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccFirst3DaysMortalsNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a6a9e7fb-9b6b-4735-9a86-952e0ade0e83">
+          <ID>Acc First3 Days Mortals Kg</ID>
+          <Name>Acc First3 Days Mortals Kg</Name>
+          <Source dwd:design-time-name="a934f140-397d-4bf4-b367-53262c7252f2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="95725387-de64-482e-805b-f24d9edaf6c4">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>AccFirst3DaysMortalsKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5ec6a0f6-0065-43d8-bfe9-7682578f7dc8">
+          <ID>Day Swim Bladder No</ID>
+          <Name>Day Swim Bladder No</Name>
+          <Source dwd:design-time-name="aba6fb63-a6e8-4419-9359-af3ac9d856f0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9fcf8a68-e82e-420e-b957-a25ed126eac9">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DaySwimBladderNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d341a812-00b5-44c5-a6d9-ddb83284ed00">
+          <ID>Day Swim Bladder Kg</ID>
+          <Name>Day Swim Bladder Kg</Name>
+          <Source dwd:design-time-name="c2ab6855-8927-490f-ba6b-d38b98053d85">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1da11dde-dd02-490f-a97f-139b0b9df21a">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DaySwimBladderKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="42f31980-5468-48a9-b7c5-49ae9c17de5d">
+          <ID>Day Low Quality No</ID>
+          <Name>Day Low Quality No</Name>
+          <Source dwd:design-time-name="00043f2a-207a-406b-a6a4-13628e4a4c7d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e6a9136-36b2-4b50-8861-af46b404ab88">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayLowQualityNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9cc84e58-ca06-4222-8ace-584d4a8e6966">
+          <ID>Day Low Quality Kg</ID>
+          <Name>Day Low Quality Kg</Name>
+          <Source dwd:design-time-name="b84f23df-a51b-4978-b25c-0c8616c5a9f7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1f766f2-b1c7-4d03-8f8d-72b047a54f95">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DayLowQualityKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0a6d9239-f829-441f-8e97-b814c89d7249">
+          <ID>Day Suggested Food Qty</ID>
+          <Name>ΠΡΟΤΕΙΝΟΜΕΝΗ ΤΡΟΦΗ</Name>
+          <Source dwd:design-time-name="bb5857da-5dad-4afc-a0e9-69ebd73712d8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eaba2fe8-522e-4fa6-962c-d93fa6a55163">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>DaySuggestedFoodQty</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="166ab179-6670-44e6-b19c-31d1bf007c00">
+          <ID>Previous Day MAB</ID>
+          <Name>Previous Day MAB</Name>
+          <Source dwd:design-time-name="39897113-e3a8-46ba-97ef-28c59b96505c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="865b5f02-1768-4dac-ac1a-f3a514df91f8">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>PreviousDayMAB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="98ff6ee6-3791-4bca-aaa2-6b1e42a3d258">
+          <ID>Original Pop ID</ID>
+          <Name>Original Pop ID</Name>
+          <Source dwd:design-time-name="4cb2599d-6be2-4fbd-aa5c-9e5129bf0fe7">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e0734e49-caed-4ff4-b89e-5ba0059777dd">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>Original_Pop_ID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5a58afaa-5e14-420a-8dca-e390c90c8887">
+          <ID>New Pop ID</ID>
+          <Name>New Pop ID</Name>
+          <Source dwd:design-time-name="77d12ab7-9268-4973-83f8-621cea56f29a">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3b78a69a-7f72-463a-b5b4-62fa3e1cb84c">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>New_Pop_ID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9a27de0a-59be-48e3-8f8b-3951a63dc2a0">
+          <ID>USELESSNO</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΧΡΗΣΤΩΝ</Name>
+          <Source dwd:design-time-name="b87ba229-51e5-41aa-9b26-2eabc6a2a672">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0b3b8d8e-cc2b-423e-bca1-e99b0af3f924">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>USELESSNO</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="e8e120c1-951a-49d2-a6cb-598dbbf9930f">
+          <ID>USELESSKG</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ</Name>
+          <Source dwd:design-time-name="534066cb-8b48-4de4-8092-ff7d74ce0b51">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aaef1078-98a0-4745-b60f-b6be8b4b52ad">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>USELESSKG</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="49bd7910-d148-4718-a0c5-40689bea9026">
+          <ID>Daily Fact Count</ID>
+          <Name>Daily Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9e03236f-cfc3-4195-83f3-1eaabfc614d8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="efbe3219-1f9c-4d00-af75-332083e41363">
+              <TableID>dbo_DailyFact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f900037d-88ae-41e5-840c-97f39d7e029b">
+          <ID>Previous Day Fish No 1</ID>
+          <Name>Previous Day Fish No</Name>
+          <AggregateFunction>FirstNonEmpty</AggregateFunction>
+          <Source dwd:design-time-name="7637b074-9787-41f5-9582-453851212afb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f5463df2-5caa-4366-bc4c-7ac653b1349d">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>PreviousDayFishNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0a74cce4-c253-443f-9dc8-67c23210e018">
+          <ID>Previous Day Fish No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΡΧΗΣ</Name>
+          <AggregateFunction>FirstChild</AggregateFunction>
+          <Source dwd:design-time-name="5743f0b8-a29f-40a7-b23a-9ad364e19357">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3e7e20e3-d294-4231-84fb-94c123a40314">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>PreviousDayFishNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="9d3943ac-08dd-41e7-bab0-68d51964fbdb">
+          <ID>Fish No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="3a95a5bd-9ed9-491c-9d7e-65da41283c58">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="013be64f-54e3-49e6-9e08-e6b2d73fe80d">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>FishNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="f9223324-c360-416e-9665-bf2147325adb">
+          <ID>Biomass</ID>
+          <Name>ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <Source dwd:design-time-name="38dd6deb-0e2d-49f9-9cc7-4603e048cf40">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a865505d-0298-470f-994c-24c25ba568d9">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>Biomass</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="7c23c373-fbe5-4400-8b0a-4f7a06955b86">
+          <ID>Previous Day Biomass</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΡΧΗΣ</Name>
+          <AggregateFunction>FirstChild</AggregateFunction>
+          <Source dwd:design-time-name="76606c62-52e1-4465-9c9d-b85e4ceb91b1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="30d6fee8-1a1b-4076-bd03-774c3a26cdba">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>PreviousDayBiomass</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="78e5b2a3-09b3-4170-8c7d-1725dd0c2a4c">
+          <ID>Biomass 2</ID>
+          <Name>Biomass</Name>
+          <Source dwd:design-time-name="ab364f02-2e43-494c-bc0f-bae032310aea">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4b7cb2df-b124-45fd-94d7-63536e3057be">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>Biomass</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e8fe24fb-f3ac-4143-8761-c01a3b8052aa">
+          <ID>ISINFAST</ID>
+          <Name>ISINFAST</Name>
+          <Source dwd:design-time-name="35fff876-f63d-4856-8e6d-1a6aa2e63633">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c85a09ac-4d97-45fe-be55-f174462e182e">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>ISINFAST</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3716f572-f20d-4bf5-815c-1433f26afd0e">
+          <ID>Lost Growth</ID>
+          <Name>Lost Growth</Name>
+          <Source dwd:design-time-name="8fff4c54-9aa0-4ea9-aa35-e832516f5132">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="17e8b8c5-2b25-4477-89ef-74e948d08e8e">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>LostGrowth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="596cba49-2328-4c98-aaa0-c9b4e96c71ce">
+          <ID>Biomass In Feast Tn</ID>
+          <Name>Biomass In Feast Tn</Name>
+          <Source dwd:design-time-name="ace71f70-5ff2-45f3-bc5c-addd98a71f19">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f24418f6-c8cf-46e2-9efb-f16ba0b26fd4">
+              <TableID>dbo_DailyFact</TableID>
+              <ColumnID>BiomassInFeast_Tn</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2d6539fd-4564-4613-9472-2d9f0cf60a0f">
+          <CubeDimensionID>Dim Cage Lot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4c0c4ef1-8c1a-4c05-a731-8898d7737990">
+              <AttributeID>CAGELOTID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c63f444b-aefb-41e6-be41-d5bbbdcb1420">
+                  <DataType>WChar</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="acf61793-4acf-42c0-8c00-9f22a5719bc4">
+                    <TableID>dbo_DailyFact</TableID>
+                    <ColumnID>CageLotID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a2e104a5-57cf-4632-acbf-40a8aeae0524">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1b97d201-b9fe-4cd3-9acf-4ded68a363c5">
+              <AttributeID>PK Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="13739e1c-5c7b-46ba-9109-649e2b8cb2a8">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2f89d7af-4b13-4a63-95f1-649c5fe96f2f">
+                    <TableID>dbo_DailyFact</TableID>
+                    <ColumnID>CostDate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0b441ced-cd9a-47fc-958a-6dc32bb31693">
+          <CubeDimensionID>Dim FeedingStatus</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="32cc26fd-0e66-4afc-b752-4855132eda34">
+              <AttributeID>FASTINGCAUSE</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ccfd78aa-7bed-482c-9dd4-bd9f457834fd">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2452bba6-5e58-4da0-bf12-597150cebbeb">
+                    <TableID>dbo_DailyFact</TableID>
+                    <ColumnID>FASTINGCAUSE</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0a6cb0a8-bd6d-413f-80ab-a358afa8a12c">
+      <ID>Plan Fact</ID>
+      <Name>Plan Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bdbd764d-de61-4357-908a-fd827723b3b9">
+          <ID>Fish No - Plan Fact</ID>
+          <Name>ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <Source dwd:design-time-name="b215dad3-e702-4562-8926-1e308cda2351">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fa4ad4b9-510f-4dc3-8018-c1247d1a29ba">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>FishNo</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="e5e5ebef-341b-4921-9204-83b83f4b8a83">
+          <ID>Mab</ID>
+          <Name>Mab</Name>
+          <Source dwd:design-time-name="b244f599-4ae0-41c4-b106-82580848a301">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="402fc17f-4eaf-439d-a371-978fae7c386a">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>Mab</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dbd4abb0-70cc-4211-aeab-ae287502eeee">
+          <ID>Food Qty</ID>
+          <Name>ΤΡΟΦΗ BUDGET</Name>
+          <Source dwd:design-time-name="11347e37-5a00-494e-b6c8-2b131a3029ee">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3d779810-61fd-4c6e-8832-624cd44068fd">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>FoodQty</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ee3919ed-63e3-489b-ab20-8d1472897e90">
+          <ID>Temperature</ID>
+          <Name>Temperature</Name>
+          <Source dwd:design-time-name="b3fa9774-80d8-4d1e-9ed0-e9222ff0240c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e5f28e76-9505-4f2a-82eb-742987ac2e05">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>Temperature</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="60a2cee1-6039-4c04-9748-cdd535c8d6de">
+          <ID>SFR Factor</ID>
+          <Name>SFR Factor</Name>
+          <Source dwd:design-time-name="46e66347-c223-4e45-9ac1-3b6e8c07e258">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d8aa9615-25db-41cc-9404-8ec070ac1c2b">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>SFRFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cbbab762-f06f-4e60-b802-fecc9f050d1f">
+          <ID>FCR Factor</ID>
+          <Name>FCR Factor</Name>
+          <Source dwd:design-time-name="c0ccfcde-7ab7-4b66-87cd-cb66c5fa15a1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4efc9b9c-9782-456c-90d9-9883bb955c88">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>FCRFactor</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bdb259cf-35f7-4a8f-bdf9-ffd5e39a0d63">
+          <ID>Mortality No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="821e54a0-2ded-40bf-9c82-a4445a4c143b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7ef5f02c-dbad-46dd-9b36-7910228bdc91">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>MortalityNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1020401f-5d07-4db6-9144-bdf2ea676e8a">
+          <ID>Mortality Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="de046250-6eff-4839-8b6f-a1ca311be6ed">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d51e77a2-2428-456a-ba88-571990d3effa">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>MortalityKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="59511cc0-f89d-48b8-a792-9dd40e42ef93">
+          <ID>The Year</ID>
+          <Name>The Year</Name>
+          <Source dwd:design-time-name="10bfb102-8e71-4062-8c5f-8a0d221a7891">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c8f9a470-ca7e-427a-abef-9246460e3bc1">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>theYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="480c486a-30fb-4d86-8594-f3236bcac9c4">
+          <ID>The Month</ID>
+          <Name>The Month</Name>
+          <Source dwd:design-time-name="2255380e-a287-4eaa-93c6-c0eb9d573b85">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c842aaa4-cae4-4216-8c80-aac966310ae2">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>theMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="65776f42-3772-49c8-80db-de4f347918dc">
+          <ID>Day Harvest No - Plan Fact</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="a627f033-089b-4d9c-891d-fba8c3ac2915">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="86aa720e-69cc-48be-9438-6a63c4c6ab58">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>DayHarvestNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f46dc7cf-12c4-4b4c-9793-41223884c3db">
+          <ID>Day Harvest Kg - Plan Fact</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="8ea7fce7-b21b-45da-8685-8f603b082354">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="16953fe1-ba55-436f-a825-b5e0043afce5">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>DayHarvestKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b58b7d58-046c-4585-bfea-73385a6557f6">
+          <ID>PL Result New ID</ID>
+          <Name>PL Result New ID</Name>
+          <Source dwd:design-time-name="bce4ff1e-a8b4-434b-a507-663919b2c791">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="28c2c4f8-a64d-4111-95dd-a0f2fe6af29d">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>PLResultNewID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6ec310ee-ca1c-4977-9d92-63dbf47d307e">
+          <ID>Corr No</ID>
+          <Name>ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="b394990d-6032-4e99-8ba1-0f8f69078814">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6cd7e430-10f8-4637-81d9-d5e15be200b1">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>CorrNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e6f96014-27c1-42fe-9635-fb113641536a">
+          <ID>Corr Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="c010a7e3-598c-4974-b1ea-0684b89cd518">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="88b8554c-70f1-4cac-bda2-3b542255b3f2">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>CorrKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9173ea8e-91b9-4973-ace8-da76a4b94fe4">
+          <ID>Insert No</ID>
+          <Name>ΕΙΣΑΓΩΓΕΣ BUDGET</Name>
+          <Source dwd:design-time-name="430c5289-beb5-46b7-a450-a6626d8088bc">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e4345dca-9c2a-4953-95ff-c7d8b8c272b4">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>InsertNo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="18c0ea3b-c5c8-4710-919e-b37a8f953f1e">
+          <ID>Insert Biomass Kg</ID>
+          <Name>ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET</Name>
+          <Source dwd:design-time-name="b89c51a6-ebe4-4420-8706-941dfe10be2c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="face14a4-5fc9-4c38-90b2-2622c3de8a1e">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>InsertBiomassKg</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9bef5084-3361-4e38-bbcf-0e010533b3fc">
+          <ID>Plan Fact Count</ID>
+          <Name>Plan Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="179940a2-26cc-4218-b17b-ed1db1c904b8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="546a927b-b0f2-4155-93e9-56f28524f825">
+              <TableID>dbo_PlanFact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="27c39d89-63e8-4584-93ee-25bc3ee2dc3d">
+          <ID>PREVIOUSDAYFISHNO</ID>
+          <Name>ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET</Name>
+          <AggregateFunction>FirstChild</AggregateFunction>
+          <Source dwd:design-time-name="e988b9e7-20f0-4f13-a41d-1cf07b9c662b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a3efd8fe-ed4f-47a1-89d1-b9039584d2ae">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>PREVIOUSDAYFISHNO</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="020e4a48-9cda-4444-82d5-356ba14cb7d6">
+          <ID>PREVIOUSDAYMAB</ID>
+          <Name>PREVIOUSDAYMAB</Name>
+          <Source dwd:design-time-name="a0c59198-9eae-4f11-ba97-f4df00c1b06f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1f447133-8a09-46cc-bca1-738d81c62fee">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>PREVIOUSDAYMAB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c7eb8049-00ea-4b96-bc30-347381fb9c89">
+          <ID>Biomass 1</ID>
+          <Name>ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <Source dwd:design-time-name="a942cf2c-ff88-4971-bb21-ee1daf17907d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6df799e4-2c52-4446-b2a8-5ba0da057610">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>Biomass</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="3874806b-07ca-4945-aa24-1dacef7cc9d2">
+          <ID>PREVIOUSDAYBIOMASS</ID>
+          <Name>ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET</Name>
+          <AggregateFunction>FirstChild</AggregateFunction>
+          <Source dwd:design-time-name="4641e002-9946-49ce-bfa7-ca8f8a235b07">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e9ab9ab8-136f-41bc-9454-51c376c23270">
+              <TableID>dbo_PlanFact</TableID>
+              <ColumnID>PREVIOUSDAYBIOMASS</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <IgnoreUnrelatedDimensions>false</IgnoreUnrelatedDimensions>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b31f5c62-898a-4426-8439-3863d2aba83c">
+          <CubeDimensionID>Food Dim</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="30d99669-3d07-49ca-bbbd-8350ae23fda0">
+              <AttributeID>FOODID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2e233104-71cf-46f7-b2f0-001bc999af87">
+                  <DataType>WChar</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="014d0372-bc4e-4661-9ec8-cb1c2e3c7b35">
+                    <TableID>dbo_PlanFact</TableID>
+                    <ColumnID>FoodID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="465a9409-8942-4f4e-b853-de16d841434f">
+          <CubeDimensionID>Dim Cage Lot</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5b42e69b-2538-4849-9c0b-44739194df2d">
+              <AttributeID>LOTGRADING</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3d27903f-258a-4ca4-8cf5-37c70cb9ad66">
+                  <DataType>WChar</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6b59ae6-65f9-4af0-8b16-026e80606e72">
+                    <TableID>dbo_PlanFact</TableID>
+                    <ColumnID>SiteID</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3f7c2004-dc29-499a-82fb-e742eda1f968">
+                  <DataType>WChar</DataType>
+                  <DataSize>151</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f06a3aed-f6bf-4ed0-9797-9b0eea56b1d0">
+                    <TableID>dbo_PlanFact</TableID>
+                    <ColumnID>CageName</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1d67479b-588c-42f3-972a-13b7c9a62da6">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ef158188-d499-4c7f-8caa-5e610522d262">
+              <AttributeID>PK Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="753cc24a-746c-4a1d-8f42-8cc08e1fb647">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d236bc22-3803-49e9-a318-8205b2152347">
+                    <TableID>dbo_PlanFact</TableID>
+                    <ColumnID>PLDate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="1f7187e1-3460-402f-9e22-218b0b4bbc34">
+    <DataSourceViewID>Nireus Aqua Mr DM</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="6580d568-cbb9-482c-aff5-1fdb8e7eb464">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΤΕΛΟΥΣ]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ]*1000,[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΡΧΗΣ]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ] * 1000 ,[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                  
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ] -[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ] - [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ] +[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[FCR]
+ AS DIVIDE([Measures].[ΤΡΟΦΗ],[Measures].[ΑΝΑΠΤΥΞΗ],0), 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+CREATE MEMBER CURRENTCUBE.[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ %]
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]+[Measures].[ΕΙΣΑΓΩΓΕΣ],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                           
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΘΝΗΣ.]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]*1000,[Measures].[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΤΕΛΟΥΣ BUDGET]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΡΧΗΣ BUDGET]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ BUDGET]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ BUDGET],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';    
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ BUDGET (Tn)]
+ AS 0, 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+NON_EMPTY_BEHAVIOR = { [ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ BUDGET]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET] -[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET] +[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET], 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+CREATE MEMBER CURRENTCUBE.[Measures].[FCR BUDGET]
+ AS DIVIDE([Measures].[ΤΡΟΦΗ BUDGET],[Measures].[ΑΝΑΠΤΥΞΗ BUDGET],0), 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                  
+CREATE MEMBER CURRENTCUBE.[Measures].[ΔΙΟΡΘΩΣΕΙΣ %]
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]+[Measures].[ΕΙΣΑΓΩΓΕΣ],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                  
+CREATE MEMBER CURRENTCUBE.[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %]
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET]+[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ (Tn)]
+ AS DIVIDE([Measures].[ΑΝΑΠΤΥΞΗ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΤΡΟΦΗ (Tn)]
+ AS DIVIDE([Measures].[ΤΡΟΦΗ],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΑΝΑΠΤΥΞΗ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET],1000.0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+CREATE MEMBER CURRENTCUBE.[Measures].[ΤΡΟΦΗ BUDGET (Tn)]
+ AS DIVIDE([Measures].[ΤΡΟΦΗ BUDGET],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                              
+CREATE MEMBER CURRENTCUBE.[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]
+ AS divide([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET]+[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                             
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΑΡΧΗΣ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)] - [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜ ΑΛΙΕΥΣΕΩΝ]
+ AS [Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ]-[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜΑΧΙΑ ΑΡΧΗΣ]
+ AS [Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]-[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1  ;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΕΙΣΑΓΩΓΕΣ]
+ AS [Measures].[ΕΙΣΑΓΩΓΕΣ]-[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ]
+ AS [Measures].[ΑΝΑΠΤΥΞΗ (Tn)]-[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΡΟΦΗ]
+ AS [Measures].[ΤΡΟΦΗ (Tn)]-[Measures].[ΤΡΟΦΗ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ]
+ AS [Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ]-[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1  ;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ]
+ AS [Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]-[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ]
+ AS [Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ] -[Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]
+ AS DIVIDE(([Measures].[FCR]-[Measures].[FCR BUDGET]),[Measures].[FCR BUDGET],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ %]
+ AS DIVIDE(([Measures].[ΑΝΑΠΤΥΞΗ (Tn)]-[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)]),[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ %]
+ AS DIVIDE(([Measures].[ΔΙΟΡΘΩΣΕΙΣ %]-[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %]),[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ %]
+ AS DIVIDE(([Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ %]-[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]),[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %],0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΤΕΛΟΥΣ]
+ AS [Measures].[Μ.Β. ΤΕΛΟΥΣ]-[Measures].[Μ.Β. ΤΕΛΟΥΣ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΑΡΧΗΣ]
+ AS [Measures].[Μ.Β. ΑΡΧΗΣ]-[Measures].[Μ.Β. ΑΡΧΗΣ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΑΛΙΕΥΣΕΩΝ]
+ AS [Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ]-[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                      
+CREATE MEMBER CURRENTCUBE.[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ]
+ AS DIVIDE([Measures].[ΘΕΡΜΟΚΡΑΣΙΑ],[Measures].[Daily Fact Count],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                      
+CREATE MEMBER CURRENTCUBE.[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ BUDGET]
+ AS DIVIDE([Measures].[Temperature],[Measures].[Plan Fact Count],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                     
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΕΡΜΟΚΡΑΣΙΑΣ]
+ AS [Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ]-[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ BUDGET], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                     
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ FCR]
+ AS case 
+when [Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]&lt;0 then -([Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]) else [Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]
+end, 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;                  
+CREATE MEMBER CURRENTCUBE.[Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ (Tn)]
+ AS DIVIDE([Measures].[Lost Growth],1000,0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                  
+CREATE MEMBER CURRENTCUBE.[Measures].[FFCR]
+ AS CASE WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 1 THEN [Measures].[FCR]
+     WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 2 THEN [Measures].[FCR BUDGET]
+     WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 3 THEN [Measures].[ΑΠΟΚΛΙΣΗ FCR]
+END, 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[Measures].[Συνολική Βιομάζα (Tn)]
+ AS [Measures].[Biomass]/1000, 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΝΗΣΤΕΥΜΕΝΗ ΒΙΟΜΑΖΑ %]
+ AS DIVIDE([Measures].[Biomass In Feast Tn],[Measures].[Biomass]/1000,0), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';      
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΘΝΗΣ BUDGET]
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';  
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑΣ ΑΧΡΗΣΤΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ BUDGET (Tn)], 
+VISIBLE = 1; 
+CREATE MEMBER CURRENTCUBE.[Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ BUDGET (Tn)]
+ AS 0, 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+NON_EMPTY_BEHAVIOR = { [ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ]
+ AS [Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ (Tn)] - [Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ BUDGET (Tn)], 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+NON_EMPTY_BEHAVIOR = { [Biomass] }, 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

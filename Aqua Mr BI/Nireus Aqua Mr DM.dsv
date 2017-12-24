@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8017" scrolltop="791" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20770" y="13414" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="994" scrolltop="-7369" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13917" y="20188" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
                   </font>
@@ -208,8 +208,8 @@
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-8017</DiagramViewPortLeft>
-            <DiagramViewPortTop>791</DiagramViewPortTop>
+            <DiagramViewPortLeft>994</DiagramViewPortLeft>
+            <DiagramViewPortTop>-7369</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -315,7 +315,7 @@
                     </xs:simpleType>
                   </xs:element>
                   <xs:element name="FromWeight" msprop:design-time-name="7e89391b-e105-4cfb-80e5-26f2c7191bda" msprop:DbColumnName="FromWeight" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="BiomassInFeast_x0028_Tn_x0029_" msdata:ReadOnly="true" msprop:design-time-name="d1462bf5-2f2e-4c76-93b8-3b693fe93250" msprop:IsLogical="True" msprop:FriendlyName="BiomassInFeast(Tn)" msprop:Description="" msprop:DbColumnName="BiomassInFeast(Tn)" msprop:ComputedColumnExpression="IsInFast*Biomass/1000" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="BiomassInFeast_Tn" msdata:ReadOnly="true" msprop:design-time-name="d1462bf5-2f2e-4c76-93b8-3b693fe93250" msprop:IsLogical="True" msprop:FriendlyName="BiomassInFeast_Tn" msprop:Description="" msprop:DbColumnName="BiomassInFeast_Tn" msprop:ComputedColumnExpression="IsInFast*Biomass/1000" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

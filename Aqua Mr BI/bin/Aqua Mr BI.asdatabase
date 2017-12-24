@@ -3,6 +3,14 @@
   <Name>Aqua Mr BI</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>CA1792B06E6B48BDAD71EFE2A95A0F02</Name>
+      <Value>
+        <Rules xmlns="CA1792B06E6B48BDAD71EFE2A95A0F02"></Rules>
+      </Value>
+    </Annotation>
+  </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
@@ -21,7 +29,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2653" scrolltop="-778" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10134" y="12091" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2653" scrolltop="-778" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12779" y="15769" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
                 </font>
@@ -309,7 +317,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="20" scrolltop="-3379" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="99" x="5530" y="18865" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="20" scrolltop="-3379" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="99" x="9525" y="20346" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
                 </font>
@@ -1644,7 +1652,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5622" scrolltop="-9651" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18838" y="15584" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5622" scrolltop="-9651" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24606" y="15769" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
                 </font>
@@ -3218,17 +3226,6 @@
                 </Source>
               </Source>
             </Measure>
-            <Measure>
-              <ID>Biomass In Feast Tn</ID>
-              <Name>Biomass In Feast Tn</Name>
-              <Source>
-                <DataType>Double</DataType>
-                <Source xsi:type="ColumnBinding">
-                  <TableID>dbo_DailyFact</TableID>
-                  <ColumnID>BiomassInFeast_Tn</ColumnID>
-                </Source>
-              </Source>
-            </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
@@ -3671,282 +3668,260 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;                                                
+CALCULATE;                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΤΕΛΟΥΣ]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ]*1000,[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΡΧΗΣ]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ] * 1000 ,[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                           
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)]
  AS [Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ] -[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ]
  AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ] - [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ] +[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[FCR]
  AS DIVIDE([Measures].[ΤΡΟΦΗ],[Measures].[ΑΝΑΠΤΥΞΗ],0), 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                                
-CREATE MEMBER CURRENTCUBE.[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ %]
- AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]+[Measures].[ΕΙΣΑΓΩΓΕΣ],0), 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                         
+CREATE MEMBER CURRENTCUBE.[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ (%)]
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                           
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΘΝΗΣ.]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]*1000,[Measures].[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΤΕΛΟΥΣ BUDGET]
- AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET],0), 
+ AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΡΧΗΣ BUDGET]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
-CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ BUDGET]
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                 
+CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΠΩΛΗΣΕΩΝ BUDGET]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ BUDGET],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';    
-CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ BUDGET (Tn)]
- AS 0, 
-FORMAT_STRING = "#,##0.0;-#,##0.0", 
-NON_EMPTY_BEHAVIOR = { [ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET] }, 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ BUDGET]
  AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET] -[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET] +[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET], 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[FCR BUDGET]
  AS DIVIDE([Measures].[ΤΡΟΦΗ BUDGET],[Measures].[ΑΝΑΠΤΥΞΗ BUDGET],0), 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                           
 CREATE MEMBER CURRENTCUBE.[Measures].[ΔΙΟΡΘΩΣΕΙΣ %]
- AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]+[Measures].[ΕΙΣΑΓΩΓΕΣ],0), 
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                           
 CREATE MEMBER CURRENTCUBE.[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %]
- AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET]+[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET],0), 
+ AS DIVIDE([Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                         
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ (Tn)]
  AS DIVIDE([Measures].[ΑΝΑΠΤΥΞΗ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Kg)],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΤΡΟΦΗ (Tn)]
  AS DIVIDE([Measures].[ΤΡΟΦΗ],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΑΝΑΠΤΥΞΗ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
-CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn)]
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET],1000.0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
-CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET (Tn)]
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
+CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                        
 CREATE MEMBER CURRENTCUBE.[Measures].[ΤΡΟΦΗ BUDGET (Tn)]
  AS DIVIDE([Measures].[ΤΡΟΦΗ BUDGET],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                              
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                       
 CREATE MEMBER CURRENTCUBE.[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]
- AS divide([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET]+[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET],0), 
+ AS divide([Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                             
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                      
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΑΡΧΗΣ]
- AS [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)] - [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn)], 
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ (Tn)] - [Measures].[ΒΙΟΜΑΖΑ ΑΡΧΗΣ BUDGET (Tn], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ]
  AS [Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΤΕΛΟΥΣ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ]
- AS [Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET (Tn)], 
+VISIBLE = 1;                     
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΠΩΛΗΣΕΩΝ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜ ΑΛΙΕΥΣΕΩΝ]
- AS [Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ]-[Measures].[ΤΕΜΑΧΙΑ ΑΛΙΕΥΣΕΩΝ BUDGET], 
+VISIBLE = 1;                     
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΠΩΛΗΣΕΙΣ]
+ AS [Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ (Tn)] -[Measures].[ΒΙΟΜΑΖΑ ΑΛΙΕΥΣΕΩΝ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ]
  AS [Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ]
  AS [Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΕΙΣΑΓΩΓΩΝ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]
  AS [Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜΑΧΙΑ ΑΡΧΗΣ]
+VISIBLE = 1;                     
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΡΙΘΜΟΣ ΑΡΧΗΣ]
  AS [Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ]-[Measures].[ΤΕΜΑΧΙΑ ΑΡΧΗΣ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1  ;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΕΙΣΑΓΩΓΕΣ]
  AS [Measures].[ΕΙΣΑΓΩΓΕΣ]-[Measures].[ΕΙΣΑΓΩΓΕΣ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                            
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ]
  AS [Measures].[ΑΝΑΠΤΥΞΗ (Tn)]-[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                        
+VISIBLE = 1;                 
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΡΟΦΗ]
  AS [Measures].[ΤΡΟΦΗ (Tn)]-[Measures].[ΤΡΟΦΗ BUDGET (Tn)], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                        
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ]
+VISIBLE = 1;                 
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΡΙΘΜΟΣ ΤΕΛΟΥΣ]
  AS [Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ]-[Measures].[ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1  ;                        
+VISIBLE = 1;                 
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ]
  AS [Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ]-[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                        
+VISIBLE = 1;                 
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ]
  AS [Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ] -[Measures].[ΤΕΜΑΧΙΑ ΔΙΟΡΘΩΣΕΩΝ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                       
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]
  AS DIVIDE(([Measures].[FCR]-[Measures].[FCR BUDGET]),[Measures].[FCR BUDGET],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                       
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΑΝΑΠΤΥΞΗ %]
  AS DIVIDE(([Measures].[ΑΝΑΠΤΥΞΗ (Tn)]-[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)]),[Measures].[ΑΝΑΠΤΥΞΗ BUDGET (Tn)],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                       
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΔΙΟΡΘΩΣΕΙΣ %]
  AS DIVIDE(([Measures].[ΔΙΟΡΘΩΣΕΙΣ %]-[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %]),[Measures].[ΔΙΟΡΘΩΣΕΙΣ BUDGET %],0), 
-FORMAT_STRING = "Percent", 
-VISIBLE = 1;                       
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΝΗΣΙΜΟΤΗΤΕΣ %]
- AS DIVIDE(([Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ %]-[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]),[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %],0), 
-FORMAT_STRING = "Percent", 
-VISIBLE = 1;                       
+ AS DIVIDE(([Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ (%)]-[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %]),[Measures].[ΘΝΗΣΙΜΟΤΗΤΕΣ BUDGET %],0), 
+FORMAT_STRING = "#,##0.0;-#,##0.0", 
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΤΕΛΟΥΣ]
  AS [Measures].[Μ.Β. ΤΕΛΟΥΣ]-[Measures].[Μ.Β. ΤΕΛΟΥΣ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                       
+VISIBLE = 1;                
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΑΡΧΗΣ]
  AS [Measures].[Μ.Β. ΑΡΧΗΣ]-[Measures].[Μ.Β. ΑΡΧΗΣ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                       
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΑΛΙΕΥΣΕΩΝ]
- AS [Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ]-[Measures].[Μ.Β. ΑΛΙΕΥΣΕΩΝ BUDGET], 
+VISIBLE = 1;                
+CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ Μ.ΒΑΡΟΣ ΠΩΛΗΣΕΩΝ]
+ AS [Measures].[Μ.Β. ΠΩΛΗΣΕΩΝ]-[Measures].[Μ.Β. ΠΩΛΗΣΕΩΝ BUDGET], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                      
+VISIBLE = 1;               
 CREATE MEMBER CURRENTCUBE.[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ]
  AS DIVIDE([Measures].[ΘΕΡΜΟΚΡΑΣΙΑ],[Measures].[Daily Fact Count],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                      
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';               
 CREATE MEMBER CURRENTCUBE.[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ BUDGET]
  AS DIVIDE([Measures].[Temperature],[Measures].[Plan Fact Count],0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';                     
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';              
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΘΕΡΜΟΚΡΑΣΙΑΣ]
- AS [Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ]-[Measures].[ΜΕΣΗ ΘΕΡΜΟΚΡΑΣΙΑ BUDGET], 
+ AS [Measures].[AVG ΘΕΡΜΟΚΡΑΣΙΑ Daily]-[Measures].[AVG ΘΕΡΜΟΚΡΑΣΙΑ Plan], 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1;                     
+VISIBLE = 1;              
 CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ FCR]
  AS case 
 when [Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]&lt;0 then -([Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]) else [Measures].[ΑΠΟΚΛΙΣΗ FCR BASE]
 end, 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                  
+VISIBLE = 1;           
 CREATE MEMBER CURRENTCUBE.[Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ (Tn)]
  AS DIVIDE([Measures].[Lost Growth],1000,0), 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';           
 CREATE MEMBER CURRENTCUBE.[Measures].[FFCR]
  AS CASE WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 1 THEN [Measures].[FCR]
      WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 2 THEN [Measures].[FCR BUDGET]
      WHEN [Dim Scenario].[ID].CurrentMember.MemberValue = 3 THEN [Measures].[ΑΠΟΚΛΙΣΗ FCR]
 END, 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1;      
-CREATE MEMBER CURRENTCUBE.[Measures].[Συνολική Βιομάζα (Tn)]
- AS [Measures].[Biomass]/1000, 
-FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';        
-CREATE MEMBER CURRENTCUBE.[Measures].[ΝΗΣΤΕΥΜΕΝΗ ΒΙΟΜΑΖΑ %]
- AS DIVIDE([Measures].[Biomass In Feast Tn],[Measures].[Biomass]/1000,0), 
-FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact';      
-CREATE MEMBER CURRENTCUBE.[Measures].[Μ.Β. ΘΝΗΣ BUDGET]
- AS DIVIDE([Measures].[ΒΙΟΜΑΖΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET]*1000,[Measures].[ΤΕΜΑΧΙΑ ΘΝΗΣΙΜΟΤΗΤΩΝ BUDGET],0), 
-FORMAT_STRING = "#,##0.0;-#,##0.0", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact';  
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΒΙΟΜΑΖΑΣ ΑΧΡΗΣΤΩΝ]
- AS [Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ (Tn)]-[Measures].[ΒΙΟΜΑΖΑ ΑΧΡΗΣΤΩΝ BUDGET (Tn)], 
 VISIBLE = 1; 
-CREATE MEMBER CURRENTCUBE.[Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ BUDGET (Tn)]
- AS 0, 
+CREATE MEMBER CURRENTCUBE.[Measures].[Νηστευμένη Βιομάζα %]
+ AS DIVIDE([Measures].[Biomass]*[Measures].[ISINFAST] ,[Measures].[Biomass]), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Νηστευμένη Βιομάζα (Tn)]
+ AS [Measures].[Biomass]*[Measures].[ISINFAST]/1000, 
 FORMAT_STRING = "#,##0.0;-#,##0.0", 
-NON_EMPTY_BEHAVIOR = { [ΤΕΜΑΧΙΑ ΤΕΛΟΥΣ BUDGET] }, 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Plan Fact'  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].[ΑΠΟΚΛΙΣΗ ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ]
- AS [Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ (Tn)] - [Measures].[ΧΑΜΕΝΗ ΑΝΑΠΤΥΞΗ BUDGET (Tn)], 
-FORMAT_STRING = "#,##0.0;-#,##0.0", 
-NON_EMPTY_BEHAVIOR = { [Biomass] }, 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Daily Fact'  ; </Text>
             </Command>
           </Commands>
         </MdxScript>
@@ -4060,7 +4035,7 @@ VISIBLE = 1  ; </Text>
                 <Name>_ALL_TABLES_</Name>
                 <DiagramLayout>
                   <dds>
-                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="994" scrolltop="-7369" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13917" y="20188" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8017" scrolltop="791" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20770" y="13414" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                       <font>
                         <ddsxmlobjectstreamwrapper binary="01a10000900144420100065461686f6d61" />
                       </font>
@@ -4238,11 +4213,11 @@ VISIBLE = 1  ; </Text>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
                   </dds>
-</DiagramLayout>
+                </DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-                <DiagramViewPortLeft>994</DiagramViewPortLeft>
-                <DiagramViewPortTop>-7369</DiagramViewPortTop>
+                <DiagramViewPortLeft>-8017</DiagramViewPortLeft>
+                <DiagramViewPortTop>791</DiagramViewPortTop>
                 <DiagramBoundingLeft>0</DiagramBoundingLeft>
                 <DiagramBoundingTop>0</DiagramBoundingTop>
                 <DiagramZoom>100</DiagramZoom>
@@ -4348,7 +4323,7 @@ VISIBLE = 1  ; </Text>
                         </xs:simpleType>
                       </xs:element>
                       <xs:element name="FromWeight" msprop:design-time-name="7e89391b-e105-4cfb-80e5-26f2c7191bda" msprop:DbColumnName="FromWeight" type="xs:decimal" minOccurs="0" />
-                      <xs:element name="BiomassInFeast_Tn" msdata:ReadOnly="true" msprop:design-time-name="d1462bf5-2f2e-4c76-93b8-3b693fe93250" msprop:IsLogical="True" msprop:FriendlyName="BiomassInFeast_Tn" msprop:Description="" msprop:DbColumnName="BiomassInFeast_Tn" msprop:ComputedColumnExpression="IsInFast*Biomass/1000" type="xs:decimal" minOccurs="0" />
+                      <xs:element name="BiomassInFeast_x0028_Tn_x0029_" msdata:ReadOnly="true" msprop:design-time-name="d1462bf5-2f2e-4c76-93b8-3b693fe93250" msprop:IsLogical="True" msprop:FriendlyName="BiomassInFeast(Tn)" msprop:Description="" msprop:DbColumnName="BiomassInFeast(Tn)" msprop:ComputedColumnExpression="IsInFast*Biomass/1000" type="xs:decimal" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
